@@ -1,0 +1,24 @@
+
+<html>
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome!</h1>
+            <p>Image Search API!</p><br>
+            <h2>Example</h2>
+            <p>You can search lolcats funny image</p>
+            <code>/imagesearch/lolcats%20funny</code><br><br>
+            <p>You can limit result passing offset parameters</p>
+            <code>/imagesearch/lolcats%20funny?offset=10</code><br><br>
+            <p>You can get the latest search using this api</p>
+            <code>/latest/imagesearch/</code>
+            <h2>Output</h2>
+            <p>The result will be for example</p>
+            <code>{"url":"http://s2.favim.com/orig/33/cat-funny-lol-lolcats-mean-Favim.com-261389.jpg","snippet":"cat, funny, lol, lolcats, mean","thumbnail":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjH2_3xIIzquPGN-GVgivEQ1Ib4T9W9mCRjcYBsvLNB-e_aWb213o2-qo4","context":"http://favim.com/image/261389/"}</code>
+        </div>
+    </body>
+</html>

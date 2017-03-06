@@ -1,0 +1,31 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp: Image Search",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskyd/image-search"
+  },
+  "keywords": [
+    "API",
+    "Image",
+    "Search",
+    "image-search",
+    "Iskyd"
+  ],
+  "author": "Mattia Careddu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iskyd/image-search/issues"
+  },
+  "homepage": "https://github.com/iskyd/image-search",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.4",
+    "flickrapi": "*"
+  }
+}
