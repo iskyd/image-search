@@ -1,7 +1,7 @@
 var Flickr = require("flickrapi"),
     flickrOptions = {
-      api_key: "b727a98ab01fe051fff29de6be955b69",
-      secret: "64896c16d9e84b68"
+      api_key: "",
+      secret: ""
     };
 
 
